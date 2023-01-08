@@ -11,7 +11,7 @@ int main()
 	int a[m][n];
 	int b[m][n];
 	int i,j;
-	printf("原矩阵为\n");
+	printf("鍘熺煩闃典负\n");
 	for(i=0;i<m;i++)
 	{
 		for(j=0;j<n;j++)
@@ -48,7 +48,7 @@ int main()
 		}
 	}
 	b[0][0]=a[i][j];
-	printf("移动后矩阵为\n");
+	printf("绉诲姩鍚庣煩闃典负\n");
 	for(i=0;i<m;i++)
 	{
 		for(j=0;j<n;j++)
