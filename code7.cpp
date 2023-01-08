@@ -18,7 +18,7 @@ int transchar (char *a)
 		}
 	}
 	return t--;
-}//´óÐ¡Ð´·´×ª 
+}//å¤§å°å†™åè½¬ 
 void newchar(char* s1,char* s2,char *p1,char *p2,char *ne)
 {
 	int t=0;
@@ -61,7 +61,7 @@ void newchar(char* s1,char* s2,char *p1,char *p2,char *ne)
 		}
 		ne[t]=*p2;
 	}	
-}//ÐÂ×Ö·û´® 
+}//æ–°å­—ç¬¦ä¸² 
 void tran(char n)
 {
 	for(int i=3;i>0;i--)
@@ -69,7 +69,7 @@ void tran(char n)
 		printf("%d",n%10);
 		n=n/10;
 	}
-}//Êý×Ö·´×ª 
+}//æ•°å­—åè½¬ 
 int main()
 {
 	char S[101],s1[101],s2[101];
@@ -78,7 +78,7 @@ int main()
 	gets(S);
 	char *p1=strstr(S,s1);
 	char *p2=strstr(S,s2);
-	if(p1==NULL&&p2==NULL)
+	if(p1==NULL||p2==NULL)
 		printf("ERROR");
 	if(p1>p2)
 	{
