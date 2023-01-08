@@ -14,5 +14,5 @@ int main()
 		i=i*16;
 		num1=num1/16;
 	}
-	printf("%dÄê%dÔÂ%dÈÕ",num2/10000,num2/100%100,num2%100);
+	printf("%då¹´%dæœˆ%dæ—¥",num2/10000,num2/100%100,num2%100);
 }
